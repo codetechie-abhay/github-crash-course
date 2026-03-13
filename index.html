@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interactive Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to My Simple Web App</h1>
+        </header>
+        
+        <main>
+            <section class="user-input">
+                <h2>Interactive Counter</h2>
+                <div class="counter-display">
+                    <span id="counter">0</span>
+                </div>
+                <div class="counter-controls">
+                    <button id="increment">Increment</button>
+                    <button id="decrement">Decrement</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </section>
+            
+            <section class="color-changer">
+                <h2>Background Color Changer</h2>
+                <div class="color-buttons">
+                    <button class="color-btn" data-color="#FF6B6B">Red</button>
+                    <button class="color-btn" data-color="#4ECDC4">Teal</button>
+                    <button class="color-btn" data-color="#45B7D1">Blue</button>
+                    <button class="color-btn" data-color="#96CEB4">Green</button>
+                    <button class="color-btn" data-color="#FFEAA7">Yellow</button>
+                </div>
+            </section>
+            
+            <section class="todo-list">
+                <h2>Simple Todo List</h2>
+                <div class="todo-input">
+                    <input type="text" id="todo-input" placeholder="Enter a task...">
+                    <button id="add-todo">Add Task</button>
+                </div>
+                <ul id="todo-items"></ul>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Simple Web App. Created with HTML, CSS & JavaScript.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
