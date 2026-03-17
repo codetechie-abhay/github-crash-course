@@ -156,6 +156,10 @@ function sayhelloswastik() {
     console.log('Hello Swastik!');
 }
 
+function sayhelloabhay() {
+    console.log('Hello Abhay!');
+}
+
 function saveTodos() {
     const todos = [];
     const todoElements = todoItems.querySelectorAll('.todo-item');
