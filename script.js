@@ -152,6 +152,10 @@ function createTodoElement(text) {
     return li;
 }
 
+function sayhelloswastik() {
+    console.log('Hello Swastik!');
+}
+
 function saveTodos() {
     const todos = [];
     const todoElements = todoItems.querySelectorAll('.todo-item');
